@@ -7,14 +7,14 @@ using Prism.Navigation;
 
 namespace BindingButtonTest.ViewModels
 {
-    public class SecondViewViewModel : BindableBase, INavigationAware
+    public class SecondPageViewModel : BindableBase, INavigationAware
     {
         private readonly INavigationService _navigationService;
 
         public DelegateCommand ThirdViewCommand { get; set; }
 
 
-        public SecondViewViewModel(INavigationService navigationService)
+        public SecondPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
             ThirdViewCommand = new DelegateCommand(StartThirdView);
@@ -22,7 +22,7 @@ namespace BindingButtonTest.ViewModels
 
         private void StartThirdView()
         {
-            _navigationService.NavigateAsync("ThirdView");
+            _navigationService.NavigateAsync("ThirdPage");
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)

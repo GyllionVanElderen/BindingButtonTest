@@ -37,13 +37,13 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
-    <Compile Include="ViewModels\SecondViewViewModel.cs" />
-    <Compile Include="ViewModels\ThirdViewViewModel.cs" />
-    <Compile Include="Views\SecondView.xaml.cs">
-      <DependentUpon>SecondView.xaml</DependentUpon>
+    <Compile Include="ViewModels\SecondPageViewModel.cs" />
+    <Compile Include="ViewModels\ThirdPageViewModel.cs" />
+    <Compile Include="Views\SecondPage.xaml.cs">
+      <DependentUpon>SecondPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ThirdView.xaml.cs">
-      <DependentUpon>ThirdView.xaml</DependentUpon>
+    <Compile Include="Views\ThirdPage.xaml.cs">
+      <DependentUpon>ThirdPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -94,13 +94,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\SecondView.xaml">
+    <EmbeddedResource Include="Views\SecondPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\ThirdView.xaml">
+    <EmbeddedResource Include="Views\ThirdPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -2,9 +2,9 @@
 
 namespace BindingButtonTest.Views
 {
-    public partial class ThirdView : ContentPage
+    public partial class ThirdPage : ContentPage
     {
-        public ThirdView()
+        public ThirdPage()
         {
             InitializeComponent();
         }

@@ -6,6 +6,6 @@
              x:Class="BindingButtonTest.Views.MainPage"
              Title="MainPage">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Button Text="To Second View" Command="{Binding SecondViewCommand}"/>
+    <Button Text="To Second Page" Command="{Binding SecondViewCommand}"/>
   </StackLayout>
 </ContentPage>

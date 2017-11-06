@@ -19,8 +19,8 @@ namespace BindingButtonTest
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
-            Container.RegisterTypeForNavigation<SecondView>();
-            Container.RegisterTypeForNavigation<ThirdView>();
+            Container.RegisterTypeForNavigation<SecondPage>();
+            Container.RegisterTypeForNavigation<ThirdPage>();
         }
     }
 }

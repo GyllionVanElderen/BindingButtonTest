@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="BindingButtonTest.Views.SecondView">
+             x:Class="BindingButtonTest.Views.SecondPage">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Button Text="To Third View" Command="{Binding ThirdViewCommand}"/>
+        <Button Text="To Third Page" Command="{Binding SecondViewCommand}"/>
     </StackLayout>
 </ContentPage>

@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="BindingButtonTest.Views.ThirdView">
-  
+             x:Class="BindingButtonTest.Views.ThirdPage">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="It works!"/>
+    </StackLayout>
 </ContentPage>

@@ -22,7 +22,7 @@ namespace BindingButtonTest.ViewModels
 
         private void StartSecondView()
         {
-            _navigationService.NavigateAsync("SecondView");
+            _navigationService.NavigateAsync("SecondPage");
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)

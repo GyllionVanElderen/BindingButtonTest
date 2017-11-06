@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace BindingButtonTest.ViewModels
 {
-    public class ThirdViewViewModel : BindableBase
+    public class ThirdPageViewModel : BindableBase
     {
-        public ThirdViewViewModel()
+        public ThirdPageViewModel()
         {
 
         }
